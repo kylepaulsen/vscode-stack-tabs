@@ -1,0 +1,34 @@
+{
+    "name": "stack-tabs",
+    "displayName": "stack-tabs",
+    "description": "Keeps the most used tabs on the far left.",
+    "version": "0.0.1",
+    "publisher": "kylepaulsen",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [{
+            "command": "stackTabs.stackTab",
+            "title": "StackTabs: Move tab to the far left"
+        }]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.0.3",
+        "vscode": "^1.0.0",
+        "mocha": "^2.3.3",
+        "@types/node": "^6.0.40",
+        "@types/mocha": "^2.2.32"
+    }
+}
