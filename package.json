@@ -2,10 +2,22 @@
     "name": "stack-tabs",
     "displayName": "stack-tabs",
     "description": "Keeps the most used tabs on the far left.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "kylepaulsen",
+    "author": {
+        "name": "Kyle Paulsen"
+    },
+    "icon": "icon.png",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.11.0"
+    },
+    "repository": {
+        "url": "https://github.com/kylepaulsen/vscode-stack-tabs.git",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/kylepaulsen/vscode-stack-tabs/issues"
     },
     "categories": [
         "Other"
